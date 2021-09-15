@@ -1,13 +1,14 @@
 #[ReboBlog](https://reboblog.herokuapp.com)
 
-##Docker steps
+##Docker commands
 ```bash
 $ sudo docker login
 $ sudo docker build -t reboblog .
 $ sudo docker run -d -p 8080:80 --name abc reboblog
 $ docker rm --force abc
 ```
-##Heroku steps
+
+##Heroku commands
 ```bash
 $ heroku login
 $ sudo heroku container:push -a reboblog web
