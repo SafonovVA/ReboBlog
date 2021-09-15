@@ -14,6 +14,5 @@ $ heroku login
 $ sudo heroku container:push -a reboblog web
 $ sudo heroku container:release -a reboblog web
 $ sudo heroku container:rm -a reboblog web
-$ sudo heroku container:rm -a reboblog web
 $ sudo heroku logs --tail -a reboblog
 ```
